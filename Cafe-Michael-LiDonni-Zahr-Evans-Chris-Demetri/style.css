@@ -1,0 +1,319 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+.nav-link {
+  font-style: ;
+  font-size: 25px;
+  color: white;
+}
+.navbar {
+  background-color: #0d0d0d;
+}
+body {
+  background-image: url("coffee2.png");
+  font-family: "tk-takumi-shokei-font", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.active{
+  --bs-navbar-active-color: #9c9c9c;
+}
+.nav-link:hover {
+  color: #878787;
+}
+a {
+  text-decoration: none;
+}
+.navbar-toggler {
+  --bs-navbar-toggler-border-color: rgba(255, 255, 255, 1)
+}
+
+h1{
+   font-family: "tk-takumi-shokei-font", sans-serif;
+  font-weight: 900;
+  font-size: 600%;
+  font-style: normal;
+  text-align: center;
+  text-align: center;
+  color: white;
+  text-shadow: 8px 8px 0 #deaf84,
+    -1px 1px 0 #deaf84,
+    1px -1px 0 #deaf84,
+    -1px -1px 0 #deaf84,
+    0px 1px 0 #deaf84,
+    0px -1px 0 #deaf84,
+    -1px 0px 0 #deaf84,
+    1px 0px 0 #deaf84,
+    2px 2px 0 #deaf84,
+    -2px 2px 0 #deaf84,
+    2px -2px 0 #deaf84,
+    -2px -2px 0 #deaf84,
+    0px 2px 0 #deaf84,
+    0px -2px 0 #deaf84,
+    -2px 0px 0 #deaf84,
+    2px 0px 0 #deaf84,
+    1px 2px 0 #deaf84,
+    -1px 2px 0 #deaf84,
+    1px -2px 0 #deaf84,
+    -1px -2px 0 #deaf84,
+    2px 1px 0 #deaf84,
+    -2px 1px 0 #deaf84,
+    2px -1px 0 #deaf84,
+    -2px -1px 0 #deaf84;
+}
+p {
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 55px;
+  font-size:20px;
+  font-style: normal;
+  text-align: center;
+  color: #000000;
+  text-shadow: 2px 2px 0 white,
+    -1px 1px 0 white,
+    1px -1px 0 white,
+    -1px -1px 0 white,
+    0px 1px 0 white,
+    0px -1px 0 white,
+    -1px 0px 0 white,
+    1px 0px 0 white,
+    2px 2px 0 white,
+    -2px 2px 0 white,
+    2px -2px 0 white,
+    -2px -2px 0 white,
+    0px 2px 0 white,
+    0px -2px 0 white,
+    -2px 0px 0 white,
+    2px 0px 0 white,
+    1px 2px 0 white,
+    -1px 2px 0 white,
+    1px -2px 0 white,
+    -1px -2px 0 white,
+    2px 1px 0 white,
+    -2px 1px 0 white,
+    2px -1px 0 white,
+    -2px -1px 0 white;
+  
+}
+.container{
+  width: 350px;
+}
+.center {
+  width: 70vw;
+  height: 70vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: #967969;
+  padding: 25px;
+  margin: 150px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+  display: block;
+  color: #000000;
+  text-shadow: 2px 2px 0 white,
+    -1px 1px 0 white,
+    1px -1px 0 white,
+    -1px -1px 0 white,
+    0px 1px 0 white,
+    0px -1px 0 white,
+    -1px 0px 0 white,
+    1px 0px 0 white,
+    2px 2px 0 white,
+    -2px 2px 0 white,
+    2px -2px 0 white,
+    -2px -2px 0 white,
+    0px 2px 0 white,
+    0px -2px 0 white,
+    -2px 0px 0 white,
+    2px 0px 0 white,
+    1px 2px 0 white,
+    -1px 2px 0 white,
+    1px -2px 0 white,
+    -1px -2px 0 white,
+    2px 1px 0 white,
+    -2px 1px 0 white,
+    2px -1px 0 white,
+    -2px -1px 0 white;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  color: #000000;
+  text-shadow: 2px 2px 0 white,
+    -1px 1px 0 white,
+    1px -1px 0 white,
+    -1px -1px 0 white,
+    0px 1px 0 white,
+    0px -1px 0 white,
+    -1px 0px 0 white,
+    1px 0px 0 white,
+    2px 2px 0 white,
+    -2px 2px 0 white,
+    2px -2px 0 white,
+    -2px -2px 0 white,
+    0px 2px 0 white,
+    0px -2px 0 white,
+    -2px 0px 0 white,
+    2px 0px 0 white,
+    1px 2px 0 white,
+    -1px 2px 0 white,
+    1px -2px 0 white,
+    -1px -2px 0 white,
+    2px 1px 0 white,
+    -2px 1px 0 white,
+    2px -1px 0 white,
+    -2px -1px 0 white;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:hover {
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+  text-align: center;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+h2 {
+  font-family: "captain-comic", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #000000;
+  text-shadow: 2px 2px 0 white,
+    -1px 1px 0 white,
+    1px -1px 0 white,
+    -1px -1px 0 white,
+    0px 1px 0 white,
+    0px -1px 0 white,
+    -1px 0px 0 white,
+    1px 0px 0 white,
+    2px 2px 0 white,
+    -2px 2px 0 white,
+    2px -2px 0 white,
+    -2px -2px 0 white,
+    0px 2px 0 white,
+    0px -2px 0 white,
+    -2px 0px 0 white,
+    2px 0px 0 white,
+    1px 2px 0 white,
+    -1px 2px 0 white,
+    1px -2px 0 white,
+    -1px -2px 0 white,
+    2px 1px 0 white,
+    -2px 1px 0 white,
+    2px -1px 0 white,
+    -2px -1px 0 white;
+
+}
+h2 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+iframe {
+   margin-left: 33%;
+}
